@@ -1,5 +1,15 @@
 # @primer/react
 
+## 37.10.1
+
+### Patch Changes
+
+- [#5551](https://github.com/primer/react/pull/5551) [`c0360db`](https://github.com/primer/react/commit/c0360db263e046f7d756bb157fb520167353be91) Thanks [@camertron](https://github.com/camertron)! - Fix an issue in useAnnouncements.tsx causing a TypeError in production. The activeItem variable may be null.
+
+- [#5552](https://github.com/primer/react/pull/5552) [`c87e80c`](https://github.com/primer/react/commit/c87e80c129fd293610bdc7df902c0df2b08f3220) Thanks [@camertron](https://github.com/camertron)! - Avoid accessing properties of potentially null document.body in PageLayout
+
+- [#5467](https://github.com/primer/react/pull/5467) [`c7b109d`](https://github.com/primer/react/commit/c7b109d5c8532dbdc90461df36d148de3c471181) Thanks [@langermank](https://github.com/langermank)! - Add `flex-shrink` to IconButton
+
 ## 37.10.0
 
 ### Minor Changes
